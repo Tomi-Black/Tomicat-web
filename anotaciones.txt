@@ -1,0 +1,39 @@
+/---------- HTML ----------/
+<div class="izquierda hover"><i class="fas fa-arrow-left"></i></div>
+<div class="derecha hover"><i class="fas fa-arrow-right"></i></div>
+/---------- CSS ----------/
+.hover{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    z-index: 7;
+    transition: .9s;
+    i{opacity: 0;color: #ffffff;transition: .9s ease;}
+}
+.hover:hover{
+    background: rgba(0, 0, 0, 0.142);
+    i{
+        opacity: .8;
+    }
+}
+.izquierda{
+    top: 0;
+    left: 0;
+    i{
+        width: 21.600px;
+        height: 21.600px;
+        top: 50%;
+        left: 0;
+        margin-left: 15px;
+    }
+}
+.derecha{
+    top: 0;
+    right: 0;
+    i{
+        top: 50%;
+        right: 0;
+        margin-right: 15px;
+    }
+}
+/-------- Falta el boton hacia arriba --------/

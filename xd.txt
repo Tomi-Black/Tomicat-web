@@ -1,0 +1,9 @@
+IP de FTP				ftp://185.201.10.78
+FTP hostname				ftp://tomicat.com
+Nombre de usuario FTP			u768639417
+Puerto FTP				21
+Carpeta para subir archivos		public_html
+
+https://hpanel.hostinger.com/hosting/tomicat.com/files/ftp-accounts
+
+https://hpanel.hostinger.com/ssl
